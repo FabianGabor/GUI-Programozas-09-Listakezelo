@@ -76,6 +76,7 @@
             this.buttonRemove.TabIndex = 3;
             this.buttonRemove.Text = "Torol";
             this.buttonRemove.UseVisualStyleBackColor = true;
+            this.buttonRemove.Click += new System.EventHandler(this.buttonRemove_Click);
             // 
             // buttonRemoveAll
             // 
@@ -85,6 +86,7 @@
             this.buttonRemoveAll.TabIndex = 4;
             this.buttonRemoveAll.Text = "Mindent torol";
             this.buttonRemoveAll.UseVisualStyleBackColor = true;
+            this.buttonRemoveAll.Click += new System.EventHandler(this.buttonRemoveAll_Click);
             // 
             // buttonBgColor
             // 

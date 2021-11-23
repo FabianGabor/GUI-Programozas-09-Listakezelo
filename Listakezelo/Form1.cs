@@ -15,12 +15,31 @@ namespace Listakezelo
         public Form1()
         {
             InitializeComponent();
+            UpdateItemsCount();
         }
 
         private void buttonAdd_Click(object sender, EventArgs e)
         {
             if (! listBox.Items.Contains(textBoxNewItem.Text))
                 listBox.Items.Add(textBoxNewItem.Text);
+            UpdateItemsCount();
+        }
+
+        private void buttonRemove_Click(object sender, EventArgs e)
+        {
+            listBox.Items.Remove(listBox.SelectedItem);
+            UpdateItemsCount();
+        }
+
+        private void UpdateItemsCount()
+        {
+            labelItemsCount.Text = listBox.Items.Count.ToString();
+        }
+
+        private void buttonRemoveAll_Click(object sender, EventArgs e)
+        {
+            listBox.Items.Clear();
+            UpdateItemsCount();
         }
     }
 }
