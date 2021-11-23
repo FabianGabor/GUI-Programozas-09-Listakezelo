@@ -96,6 +96,7 @@
             this.buttonBgColor.TabIndex = 5;
             this.buttonBgColor.Text = "Hatterszin";
             this.buttonBgColor.UseVisualStyleBackColor = true;
+            this.buttonBgColor.Click += new System.EventHandler(this.buttonBgColor_Click);
             // 
             // buttonTxtColor
             // 
@@ -105,6 +106,7 @@
             this.buttonTxtColor.TabIndex = 6;
             this.buttonTxtColor.Text = "Betuszin";
             this.buttonTxtColor.UseVisualStyleBackColor = true;
+            this.buttonTxtColor.Click += new System.EventHandler(this.buttonTxtColor_Click);
             // 
             // listBox
             // 
@@ -122,6 +124,7 @@
             this.buttonSort.TabIndex = 8;
             this.buttonSort.Text = "Sorbarendez";
             this.buttonSort.UseVisualStyleBackColor = true;
+            this.buttonSort.Click += new System.EventHandler(this.buttonSort_Click);
             // 
             // buttonExit
             // 
@@ -131,6 +134,7 @@
             this.buttonExit.TabIndex = 9;
             this.buttonExit.Text = "Kilepes";
             this.buttonExit.UseVisualStyleBackColor = true;
+            this.buttonExit.Click += new System.EventHandler(this.buttonExit_Click);
             // 
             // label1
             // 

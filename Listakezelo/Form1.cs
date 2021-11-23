@@ -41,5 +41,34 @@ namespace Listakezelo
             listBox.Items.Clear();
             UpdateItemsCount();
         }
+
+        private void buttonBgColor_Click(object sender, EventArgs e)
+        {
+            var colorDialog = new ColorDialog();
+            if(colorDialog.ShowDialog() == DialogResult.OK)  
+            {  
+                listBox.BackColor = colorDialog.Color;
+            }  
+            
+        }
+
+        private void buttonTxtColor_Click(object sender, EventArgs e)
+        {
+            var colorDialog = new ColorDialog();
+            if(colorDialog.ShowDialog() == DialogResult.OK)  
+            {  
+                listBox.ForeColor = colorDialog.Color;
+            }
+        }
+
+        private void buttonSort_Click(object sender, EventArgs e)
+        {
+            listBox.Sorted = true;
+        }
+
+        private void buttonExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
