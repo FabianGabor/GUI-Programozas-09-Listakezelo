@@ -4,9 +4,7 @@
     <projectFile>Listakezelo/Listakezelo.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d0651f0-a9c9-4f3c-ad9a-4b660e11636f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Listakezelo/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Listakezelo/Form1.cs" afterDir="false" />
-    </list>
+    <list default="true" id="0d0651f0-a9c9-4f3c-ad9a-4b660e11636f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637658118487</updated>
-      <workItem from="1637658168787" duration="1977000" />
+      <workItem from="1637658168787" duration="1991000" />
     </task>
     <servers />
   </component>
