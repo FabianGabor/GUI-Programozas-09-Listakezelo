@@ -16,5 +16,11 @@ namespace Listakezelo
         {
             InitializeComponent();
         }
+
+        private void buttonAdd_Click(object sender, EventArgs e)
+        {
+            if (! listBox.Items.Contains(textBoxNewItem.Text))
+                listBox.Items.Add(textBoxNewItem.Text);
+        }
     }
 }
